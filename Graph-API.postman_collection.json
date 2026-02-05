@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "356f7c34-a898-4b9e-b2e1-cc9fcd23495f",
+    "name": "Graph-API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49495203"
+  },
+  "item": [
+    {
+      "name": "https://graph.microsoft.com/v1.0/users/pavancherukuri@Solo170.onmicrosoft.com/sendMail",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkU2NkRuR0hVWTVCNkVaLTZOdkpPY3RHS1FwUDY3NHBhNlJRZ0tsNFZaNmsiLCJhbGciOiJSUzI1NiIsIng1dCI6IlBjWDk4R1g0MjBUMVg2c0JEa3poUW1xZ3dNVSIsImtpZCI6IlBjWDk4R1g0MjBUMVg2c0JEa3poUW1xZ3dNVSJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wMzg1ZTI4OS04MDFkLTQxYTMtOGFkNC0wOTA0YmZjY2E3YjYvIiwiaWF0IjoxNzcwMjEzODIxLCJuYmYiOjE3NzAyMTM4MjEsImV4cCI6MTc3MDIxNzcyMSwiYWlvIjoiazJaZ1lEaTAzK2hveGdJOThTVThqZWVqNVY1K0J3QT0iLCJhcHBfZGlzcGxheW5hbWUiOiJhZW0tZm9ybS1zdWJtaXNzaW9uIiwiYXBwaWQiOiJkMGY0MTc0Ni04YzYzLTRlZjEtYmE0Yy03NDU4ZjZhMTZmYjAiLCJhcHBpZGFjciI6IjEiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wMzg1ZTI4OS04MDFkLTQxYTMtOGFkNC0wOTA0YmZjY2E3YjYvIiwiaWR0eXAiOiJhcHAiLCJvaWQiOiI2NDYzNDNkNS1mMWViLTQ3ZjEtOThiNS0yYjU3ODJhOWM2ZDAiLCJyaCI6IjEuQWNZQWllS0ZBeDJBbzBHSzFBa0V2OHludGdNQUFBQUFBQUFBd0FBQUFBQUFBQUFBQUFER0FBLiIsInJvbGVzIjpbIk1haWwuU2VuZCJdLCJzdWIiOiI2NDYzNDNkNS1mMWViLTQ3ZjEtOThiNS0yYjU3ODJhOWM2ZDAiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiQVMiLCJ0aWQiOiIwMzg1ZTI4OS04MDFkLTQxYTMtOGFkNC0wOTA0YmZjY2E3YjYiLCJ1dGkiOiJDaDY3U1F3alFreWVmZWlwVzJFRkFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX2FjZCI6MTc3MDIxMjUxNCwieG1zX2FjdF9mY3QiOiIzIDkiLCJ4bXNfZnRkIjoiam1XWnlXOWZZMlN0UFRWbm1zYkRlQ0NGVnZsM05yRWdyWkVrRzRhaENtVUJhMjl5WldGemIzVjBhQzFrYzIxeiIsInhtc19pZHJlbCI6IjcgMzAiLCJ4bXNfcmQiOiIwLjQyTGpZQkppT3NZb0pNTEJMaVRBZHpXWjhTdmJNWV91c2o3bWljOTJyd2VLY2dvSlNIdVZLUjdtNWZEcEViRzlwVlhndFE4b3lpRWt3TXdBQVFlZ05GQ1VXMGpnaWV6N203ekJhM1BQY2t6eW43eTdsZ0VBIiwieG1zX3N1Yl9mY3QiOiIzIDkiLCJ4bXNfdGNkdCI6MTc3MDIxMTMxMSwieG1zX3RudF9mY3QiOiIzIDIifQ.D8pZs6xVUdNDLIpVCFxAV5-sha8QOGHlYDe3gdzuLwDn4dg60giR1GRrLRow34ZBX7NQw0dkKIIanJGEQwjHwo1Jl6qE7us4secgcaSY0N_Jq_IsTHdnoDzo21TYrTrTNbXRLjrLi4u6sYwBsCom8vmk_Xbpcavgg_GZOZIrfrVKPYlFNOqM7M00Jcrsv4BA4hVqPJQp2-9WTs9zvMsAnn9s0IQrKTvJ33BMxXzvrBq099KDFnbL4JkVwktFeTHCggXI_tDW-bCfc9YAW39CzxkPBYuKjeQgX4nMojm8vQ-P7UmIgG1wuHNLLH3i7SY4ehQJDCgP42DDUAJAZHLadw",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "default"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": {\n    \"subject\": \"Hello from Graph\",\n    \"body\": {\n      \"contentType\": \"Text\",\n      \"content\": \"Testing email\"\n    },\n    \"toRecipients\": [\n      {\n        \"emailAddress\": {\n          \"address\": \"092ydawr3g@freeml.net\"\n        }\n      }\n    ]\n  },\n  \"saveToSentItems\": false\n}\n"
+        },
+        "url": {
+          "raw": "https://graph.microsoft.com/v1.0/users/pavancherukuri@Solo170.onmicrosoft.com/sendMail",
+          "protocol": "https",
+          "host": [
+            "graph",
+            "microsoft",
+            "com"
+          ],
+          "path": [
+            "v1.0",
+            "users",
+            "pavancherukuri@Solo170.onmicrosoft.com",
+            "sendMail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://login.microsoftonline.com/0385e289-801d-41a3-8ad4-0904bfcca7b6/oauth2/v2.0/token",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "client_id",
+              "value": "d0f41746-8c63-4ef1-ba4c-7458f6a16fb0",
+              "type": "text"
+            },
+            {
+              "key": "client_secret",
+              "value": "Z7V8Q~0vcM.MXLxPP30eGlFeoNWhyBE2yuuTsc.y",
+              "type": "text"
+            },
+            {
+              "key": "scope",
+              "value": "https://graph.microsoft.com/.default",
+              "type": "text"
+            },
+            {
+              "key": "grant_type",
+              "value": "client_credentials",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://login.microsoftonline.com/0385e289-801d-41a3-8ad4-0904bfcca7b6/oauth2/v2.0/token",
+          "protocol": "https",
+          "host": [
+            "login",
+            "microsoftonline",
+            "com"
+          ],
+          "path": [
+            "0385e289-801d-41a3-8ad4-0904bfcca7b6",
+            "oauth2",
+            "v2.0",
+            "token"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
